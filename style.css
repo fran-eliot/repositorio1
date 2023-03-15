@@ -62,10 +62,13 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: white;
+    transition: all 0.1s ease;
 }
 
 header a:hover{
-    color: red
+    background: red;
+    border-radius: 15px;
+    padding: 5px 10px;
 }
 
 #hero{
@@ -124,12 +127,6 @@ header a:hover{
 #mini-menu p{
     margin: 15px;
 
-}
-
-#mini-menu .columnas{
-
-}
-
-
+    }
 
 
