@@ -1,3 +1,4 @@
+/* estilo general */
 *{
     box-sizing: border-box;
 }
@@ -29,6 +30,7 @@ p{ font-size: 1.25em;}
     color: rgba(0, 0, 0, 0.786);
 }
 
+/* barra de menú con el logo */
 header{
     background-color: rgba(0, 0, 0, 0.933);
     position: fixed;
@@ -87,6 +89,7 @@ header a:hover{
     padding: 5px 10px;
 }
 
+/* parte principal con imagen de fondo */
 #hero{
     display: flex;
     align-items: center;
@@ -102,7 +105,8 @@ header a:hover{
 }
 
 .fondo-rojo{
-    background-color: rgba(252, 39, 23, 0.707);
+    background-color: rgba(252, 38, 23, 0.553);
+    opacity: 1;
     width: 600px;
     height: 250px;
     border-radius: 25px;
@@ -130,7 +134,7 @@ img{
     padding-left: 15px;
 }
 
-
+/* barra secundaria */
 #sabor-tradicional-asiatico{
     background-color: rgba(0, 0, 0, 0.933);
 
@@ -146,6 +150,7 @@ img{
     margin-left: 320px;
 }
 
+ /* columnitas */
 #mini-menu{
     background-color:gray ;
     color: white;
